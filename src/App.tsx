@@ -10,7 +10,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<LoginPage />} />
+        <Route path="/" element={<GameSelectionPage />} />
+        <Route path="/login" element={<LoginPage />} />
         <Route path="/player" element={<PlayerPage />} />
         <Route path="/spectator" element={<SpectatorPage />} />
         <Route path="/developer" element={<DeveloperPage />} />
